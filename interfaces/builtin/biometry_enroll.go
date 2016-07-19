@@ -73,7 +73,7 @@ dbus (receive)
 dbus (receive)
     bus=system
     path=/default_device/template_store
-    interface=com.ubuntu.biometryd.Device
+    interface=com.ubuntu.biometryd.Device.TemplateStore
     member="Enroll"
     peer=(label=###PLUG_SECURITY_TAGS###),
 
